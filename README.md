@@ -78,10 +78,17 @@
 
 
 ### 사용 기술
-├─ 실시간 얼굴 인식 (MediaPipe) - Studio, Editor </br>
-├─ 이미지 합성 및 포스트 프로세싱 - Editor </br>
-├─ TCP 기반 이진 이미지 전송 - Server </br>
-└─ 세션 기반 멀티 클라이언트 라우팅 - Server </br>
+├─ 실시간 얼굴 랜드마크 인식 </br>
+├─ 이미지 합성 및 포스트 프로세싱 </br>
+├─ TCP 기반 이진 이미지 전송 </br>
+└─ 세션 기반 멀티 클라이언트 연동 </br>
+</br>
+
+### 활용 라이브러리
+├─ Google MediaPipe - 얼굴 인식 및 랜드마크 추출 </br>
+├─ Telepathy - Unity용 TCP 통신 라이브러리 </br>
+├─ SQLite - 세션 코드와 이미지 저장하기 위한 DBMS </br>
+└─ AVProLiveCamera - 웹캠 영상 처리 라이브러리 </br>
 </br>
 
 ### 데모 시연 영상
